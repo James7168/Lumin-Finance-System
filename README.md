@@ -159,6 +159,29 @@ The focus is correctness of modelling and financial state transitions.
 
 ---
 
+## Future Extensions
+
+Lumin currently emphasises correctness of financial modelling, invariant enforcement, and deterministic state transitions. Several extensions could further formalise its architectural and computational foundations:
+
+- **Immutable domain layer separation**  
+  Introduce value-type domain models distinct from persistence-layer entities to further isolate business logic from storage concerns.
+
+- **Predicate-based filtering composition**  
+  Replace identifier-set filtering with composable predicate logic to enable richer query abstraction over transaction data.
+
+- **Dynamic exchange rate modelling**  
+  Extend the static FX mapping to support time-dependent rate series, allowing historically accurate multi-currency aggregation.
+
+- **Concurrency-aware persistence handling**  
+  Formalise state mutation under concurrent update scenarios to ensure correctness beyond the single-threaded UI model.
+
+- **Formal invariant testing**  
+  Introduce property-based or unit testing around financial invariants to verify correctness under edge-case conditions.
+
+These extensions would transition the application from a structurally correct financial model to a more formally engineered financial system.
+
+---
+
 ## How to Run
 
 1. Open in Xcode.
