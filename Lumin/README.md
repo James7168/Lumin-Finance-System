@@ -27,7 +27,7 @@ Provides a structured system for modelling financial accounts and transactions, 
 
 The architecture intentionally separates UI rendering, domain models, state transitions, and persistence.
 
-Account -> Transaction -> State update -> Derived balance -> FX conversion (if required) -> Aggregated wealth
+<img width="2060" height="695" alt="Lumin_Architecture" src="https://github.com/user-attachments/assets/589ee911-50c9-4baa-a290-d94efe67c05a" />
 
 The system is designed as a controlled state model:
 - Accounts maintain invariant-validated starting balances.
