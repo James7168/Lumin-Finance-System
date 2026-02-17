@@ -6,6 +6,8 @@ Lumin models accounts and transactions as strongly typed domain entities, enforc
 
 This project is designed with production-inspired separation of concerns, domain validation, explicit state management, and clear architectural boundaries between UI, data models, and business logic.
 
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-02-17 at 10 17 18" src="https://github.com/user-attachments/assets/5a936b97-aacc-41b9-8626-9cd98465e43b" />
+
 ---
 
 ## Project Overview
