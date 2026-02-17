@@ -161,7 +161,7 @@ The focus is correctness of modelling and financial state transitions.
 
 ## Future Extensions
 
-Lumin currently emphasises correctness of financial modelling, invariant enforcement, and deterministic state transitions. Several extensions could further formalise its architectural and computational foundations:
+Lumin currently emphasises correctness of financial modelling, invariant enforcement, and explicitly defined state transitions. Several extensions could further formalise its architectural and computational foundations:
 
 - **Immutable domain layer separation**  
   Introduce value-type domain models distinct from persistence-layer entities to further isolate business logic from storage concerns.
