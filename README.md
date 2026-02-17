@@ -130,19 +130,19 @@ All financial values use Decimal to preserve accounting precision.
 
 ## Module Responsibilities
 
-- Account.swift: Domain model & invariant enforcement.
-- AccountTransaction.swift: Transaction entity & validation.
-- UserSettings.swift: Application configuration. (base currency selection)
-- DashboardView.swift: Aggregated wealth & recent transactions.
-- AccountsView.swift: Account listing & deletion.
-- TransactionsView.swift: Filtered transaction list & deletion.
-- AccountFilterView.swift: Account filtering logic.
-- AddAccountView.swift: Account creation.
-- AddTransactionView.swift: Transaction creation.
-- FocusedAccountView.swift: Account editing with constraint warnings.
-- FocusedTransactionView.swift: Transaction editing.
-- FX.swift: Currency transformation.
-- DemoData.swift: Reproducible system reinitialisation.
+- **Account.swift:** Domain model & invariant enforcement.
+- **AccountTransaction.swift:** Transaction entity & validation.
+- **UserSettings.swift:** Application configuration. (base currency selection)
+- **DashboardView.swift:** Aggregated wealth & recent transactions.
+- **AccountsView.swift:** Account listing & deletion.
+- **TransactionsView.swift:** Filtered transaction list & deletion.
+- **AccountFilterView.swift:** Account filtering logic.
+- **AddAccountView.swift:** Account creation.
+- **AddTransactionView.swift:** Transaction creation.
+- **FocusedAccountView.swift:** Account editing with constraint warnings.
+- **FocusedTransactionView.swift:** Transaction editing.
+- **FX.swift:** Currency transformation.
+- **DemoData.swift:** Reproducible system reinitialisation.
 
 ---
 
