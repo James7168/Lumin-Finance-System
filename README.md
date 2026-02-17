@@ -1,4 +1,4 @@
-# Lumin - Deterministic Personal Finance & Account Modelling App
+# Lumin - Personal Finance & Account Modelling App
 
 A model-driven personal finance system that enforces invariant-validated state transitions using SwiftUI and SwiftData.
 
